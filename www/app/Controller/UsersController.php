@@ -26,8 +26,4 @@ class UsersController extends AppController {
         $this->redirect($this->Auth->logout());
     }
 
-    public function index() {
-        $this->set('users', $this->User->find('all'));
-        
-    }
 }

@@ -13,11 +13,13 @@
                 <tr>
                     <th>Nome</th>
                     <th>Email</th>
+                    <th>Telefone</th>
                 </tr>
-                <?php foreach ($users as $user): ?>
+                <?php foreach ($contatos as $contato): ?>
                     <tr>
-                        <td><?php echo $user['User']['nome'];?></td> <!-- Utiliza h() para evitar XSS -->
-                        <td><?php echo $user['User']['email']; ?></td>
+                        <td><?php echo $contato['Contato']['nome'];?></td>
+                        <td><?php echo $contato['Contato']['email']; ?></td>
+                        <td><?php echo $contato['Contato']['telefone']; ?></td>
                     </tr>
                 <?php endforeach; ?>
         

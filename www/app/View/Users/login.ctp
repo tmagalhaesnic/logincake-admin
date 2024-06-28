@@ -26,9 +26,10 @@
         echo $this->Form->button('Login', array('class' => 'btn')) ;
         echo $this->Form->end();
     ?>
+       
     </div>
-        <button href="/users/add">cadastre-se</button>
-    </div>  
+    <a href="/users/add">cadastre-se</a></p>
+    </div>
 
 </body>
 

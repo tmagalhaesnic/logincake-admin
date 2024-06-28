@@ -41,7 +41,7 @@ class AppController extends Controller {
                 )
             ),
             'loginAction' => array('controller' => 'users', 'action' => 'login'),
-            'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
+            'loginRedirect' => array('controller' => 'contatos', 'action' => 'index'),
             'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
             'authError' => 'Você precisa estar logado para acessar essa página.',
             'loginError' => 'Nome de usuário ou senha incorretos.'

@@ -1,4 +1,4 @@
--- create database logincakeadmin; 
+-- create database ContatosCake; 
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -7,9 +7,10 @@ CREATE TABLE users (
     senha VARCHAR(100)
 );
 
-CREATE TABLE logins (
+CREATE TABLE contatos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
-    mensagem TEXT
+    telefone VARCHAR(255);
+
 );

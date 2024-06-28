@@ -1630,3 +1630,39 @@ Stack Trace:
 #3 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
 #4 /opt/sites/logincake-admin/www/app/webroot/index.php(117): Dispatcher->dispatch()
 #5 {main}
+2024-06-28 11:24:15 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /opt/sites/logincake-admin/www/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /opt/sites/logincake-admin/www/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /opt/sites/logincake-admin/www/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2024-06-28 11:24:16 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /opt/sites/logincake-admin/www/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /opt/sites/logincake-admin/www/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /opt/sites/logincake-admin/www/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}
+2024-06-28 11:24:30 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /opt/sites/logincake-admin/www/lib/Cake/View/View.php(470): View->_getViewFileName()
+#1 /opt/sites/logincake-admin/www/lib/Cake/Controller/Controller.php(968): View->render()
+#2 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/sites/logincake-admin/www/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke()
+#4 /opt/sites/logincake-admin/www/app/webroot/index.php(117): Dispatcher->dispatch()
+#5 {main}

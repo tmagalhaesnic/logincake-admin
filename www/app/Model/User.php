@@ -8,32 +8,26 @@ class User extends AppModel
         'nome' => array(
             'minLength' => array(
                 'rule' => array('minLength', '3'),
-                'message' => 'Your name must be at least 3 characters long.',
+                'message' => 'No minimo 3 caracteres.',
             )
         ),
         'email' => array(
             'email' => array(
                 'rule' => 'email',
-                'message' => 'Invalid email.'
+                'message' => 'Email invalido.'
             ),
             'unique' => array(
                 'rule' => 'isUnique',
-                'message' => 'Email already registered.'
+                'message' => 'Email ja registrado.'
             )
         ),
         'senha' => array(
             'minLength' => array(
                 'rule' => array('minLength', '4'),
-                'message' => 'Password at least 4 characters',
+                'message' => 'No minimo 4 caracteres.',
             ),
     
         ),
-        // 'confirmar_senha' => array(
-        //     'matchPasswords' => array(
-        //         'rule' => 'matchPasswords',
-        //         'message' => 'Suas senhas devem conresponder',
-        //     )
-        // ),
     );
 
     public function beforeSave($options = array())

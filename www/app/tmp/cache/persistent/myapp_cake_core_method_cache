@@ -1,2 +1,2 @@
-1719579332
+1719582203
 a:3:{i:0;b:0;s:4:"name";a:7:{s:32:"850879e3f954414bf078ce654d9ed12e";s:16:"`logincakeadmin`";s:32:"f94a437fb7858e092079378f93ef2c71";s:7:"`users`";s:32:"84aed5ca7734df237971a8964bd0217a";s:11:"`User`.`id`";s:32:"891fcecdb2d927dc297ff20c30d5d16a";s:13:"`User`.`nome`";s:32:"97c268dcd8412cd254419ed9b5f0d32e";s:14:"`User`.`email`";s:32:"769dd96dea649c7d59442301644e79a0";s:14:"`User`.`senha`";s:32:"eb9b37fa6fe3e5c49f921ddcd721b306";s:6:"`User`";}s:6:"fields";a:1:{s:32:"5b68316216245cf1e5e3be437c198a28";a:4:{i:0;s:11:"`User`.`id`";i:1;s:13:"`User`.`nome`";i:2;s:14:"`User`.`email`";i:3;s:14:"`User`.`senha`";}}}
